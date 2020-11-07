@@ -1,0 +1,70 @@
+.hidie-mobile {
+  display: none;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+.green {
+  background-color: limegreen;
+}
+.blue {
+  background-color: dodgerblue;
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hide-mobile {
+    display: block;
+  }
+  section {
+    flex-direction: row;
+  }
+  .about .col1 {
+    flex: 50%;
+    padding: 0 60px;
+  }
+  .about .col2 {
+    flex: 50%;
+    padding: 0 60px;
+  }
+  .work .col1 {
+    width: 427;
+    height: 344;
+    flex: 40%;
+    padding: 0 60px;
+  }
+  .work .col1 img{
+    width: 100%;
+    height: auto;
+  }
+  .work .col2 {
+    flex: 60%;
+    padding: 0 60px;
+    padding-top: 6%;
+  }
+}
+.logo{
+  padding: 0 60px;
+}
+nav{
+  padding-right: 135px;
+}
+ul{
+  justify-content: right;
+  display: flex;
+}
+li{
+  display: inline-block;
+  margin-left: 25%;
+}
+.desk {
+width: 427;
+height: 344;
+}
