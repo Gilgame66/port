@@ -39,17 +39,19 @@ header{
     margin-left: 5%;
     padding: 0px 3px;
   }
-  .love{
-    background-color: rgba(66, 175, 222, 1);
-    border-radius: 3px;
-    color: white;
-    padding-top: 5px;
-    padding-left: 15px;
-    padding-right: 16px;
-    padding-bottom: 5px;
-    margin-top: -5px;
-    margin-left: 5px;
+
+  .first{
+    max-width: 380px;
   }
+  .logo1{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 19%;
+    width: 50%;
+  }
+
+
   .line{
     border-bottom: 1px solid rgba(66, 175, 222, 1);
   }
@@ -72,16 +74,88 @@ p {
   line-height: 19px;
 }
 
-  .product-designer{
+.summary{
+  flex: 50%;
+  padding: 0 16px;
+}
+
+  .section-header{
     color: rgba(66, 175, 222, 1);
+    text-align: center;
+    margin-bottom:
+}
+
+.section-description{
+    max-width: 295px;
+}
+
+.deliverables{
+  display: inline-flex;
+}
+
+  .user{
+    flex: 25%;
+    padding: 0 16px;
+      }
+
+  .research{
+    font-weight: bold;
   }
-  .fuck{
-    display: none;
+
+  .user-research{
+    display: inline;
+    list-style-type: none;
+  }
+
+  .user-research li {
+    padding-bottom: 3%;
+  }
+
+
+  .tools{
+    flex: 25%;
+    padding: 0 16px;
+  }
+
+  .tools-header{
+    font-weight: bold;
+  }
+
+  .tools-used{
+    display: inline;
+    list-style-type: none;
+  }
+
+  .tools-used li {
+    padding-bottom: 3%;
+  }
+
+
+
+  .hero-image{
+    width: 90%;
+    height: auto;
+    flex: 40%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .desk {
-    padding-top: 3%;
+    display: flex;
+    padding-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: -3%;
+    max-width: 90%;
+    max-height: auto;
+  }
+
+  .product-description{
+    text-align: center;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
   }
   .dope {
     margin-top: -5%;
@@ -101,17 +175,6 @@ p {
     flex: 50%;
     padding: 0 16px;
   }
-  .green{
-    margin-top: 20%;
-  }
-
-  .blue{
-    margin-top: 10%;
-  }
-
-  .buttons{
-    max-width: 380px;
-  }
 
   .icons {
 padding: 0;
@@ -120,30 +183,6 @@ justify-content: space-between;
 align-items: center;
   }
 
-  .fuckme{
-  display: inline-block;
-  padding-right: 10px;
-  }
-
-  .work .col1 {
-    width: 90%;
-    height: auto;
-    flex: 40%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .work .col2 {
-    flex: 10%;
-    padding: 0 60px;
-    padding-top: 2%;
-    text-align: center;
-    max-width: 350px;
-  }
-  .work .col1 img{
-    width: 100%;
-    height: auto;
-  }
-}
 
 footer{
   border-top: 2px solid gray;
