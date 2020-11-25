@@ -218,11 +218,11 @@ footer{
   nav{
     padding-right: 135px;
   }
-  ul{
+nav ul{
     justify-content: right;
     display: flex;
   }
-  li{
+nav li{
     display: inline-block;
     margin-left: 25%;
   }
