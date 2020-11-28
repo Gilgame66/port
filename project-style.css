@@ -481,6 +481,70 @@ p {
     margin-top: -1%;
   }
 
+  .wire-frame-home{
+    display: flex;
+    padding-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    max-width: 90%;
+    max-height: auto;
+  }
+
+  .wire-frame-dash{
+    display: flex;
+    padding-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    max-width: 90%;
+    max-height: auto;
+  }
+
+.participant-header{
+  text-align: center;
+  margin-bottom: 4%;
+  margin-top: 8%;
+}
+
+.lists{
+  margin-bottom: 8px;
+}
+
+.branding-section-header{
+  color: rgba(66, 175, 222, 1);
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 8%;
+  padding: 0 16px;
+}
+
+.first-it-home{
+  display: flex;
+  padding-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  max-width: 90%;
+  max-height: auto;
+}
+
+.view-type{
+  background-color: rgba(66, 175, 222, 1);
+  border-radius: 3px;
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  padding-left: 20px;
+  padding-right: auto;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 65px;
+  margin-top: 25px;
+}
+
   .product-description {
     text-align: center;
     margin-top: 10%;
