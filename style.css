@@ -204,6 +204,7 @@ justify-content: center;
 .email-size-footer{
   height: 50px;
   width: auto;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -331,7 +332,7 @@ footer{
   height: 50px;
   width: auto;
 }
-
+}
 
 @media only screen and (min-width: 1280px) {
   header {
@@ -344,6 +345,7 @@ footer{
     padding: 0 60px;
     }
   .fuck img {
+    display: flex;
     margin-top: 45px;
     height: 200px;
     width: auto;
@@ -401,7 +403,7 @@ nav li{
   .work .col2 {
     flex: 60%;
     padding: 0 60px;
-    margin-bottom: 400px;
+    margin-top: 400px;
   }
 
 footer{
@@ -457,7 +459,7 @@ footer{
 .email-size-footer{
   height: 50px;
   width: auto;
-}
+  }
 }
 
 @media only screen and (min-width: 1440px){
