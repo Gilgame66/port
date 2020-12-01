@@ -674,7 +674,9 @@ section .deliverables li {
     padding: 0 60px;
   }
   .fuck {
-    display: block;
+      display: flex;
+      height: 100%;
+      width: auto;
   }
   nav{
     padding-right: 135px;

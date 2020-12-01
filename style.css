@@ -13,7 +13,7 @@ section {
   background-color: rgba(0, 178, 255, 0.36);
 }
 
-@media only screen and (min-device-width: 480px) {
+@media only screen and (min-width: 480px) {
   .logo {
     padding: 0 8px;
 }
@@ -26,17 +26,19 @@ header{
   display: flex;
 }
   nav{
-    margin-left: 7%;
+    margin-left: 10%;
   }
   .nav-links{
     display: flex;
     font-family: 'Montserrat', sans-serif;
-    justify-content: center;
+    justify-content: right;
+    margin-left: 10%;
 
     }
   .navigation{
     display: inline-block;
-    margin-left: 5%;
+    margin-left: 8%;
+    margin-right: 12%;
     padding: 0px 3px;
   }
   .love{
@@ -103,10 +105,12 @@ p {
   }
   .green{
     margin-top: 20%;
+    padding-bottom: 8px;
   }
 
   .blue{
     margin-top: 10%;
+    padding-bottom: 8px
   }
 
   .buttons{
@@ -150,12 +154,13 @@ footer{
   margin-top: 7%;
 }
 
-.footer-text{
-  text-align: center;
-}
 .large-footer{
   text-align: center;
   margin-top:;
+}
+
+.footer-text{
+  text-align: center;
 }
 
 .contact-me{
@@ -170,23 +175,21 @@ footer{
   padding-bottom: 10px;
   }
 
-.bottom{
-  margin-left: -13%;
-  text-align: center;
+.bottom {
+margin-left: 20%;
+margin-right: 20%;
+justify-content: center;
 }
 
 .symbols{
   display: flex;
   justify-content: space-around;
-  align-items: center;
-}
-
+  }
 
 .footer-images{
   display: inline-block;
 
 }
-
 
 .linkedin-size-footer{
   height: 50px;
@@ -210,17 +213,21 @@ footer{
     justify-content: space-between;
   }
   .logo{
+    display: flex;
     padding: 0 60px;
-  }
+    }
   .fuck {
-    display: block;
+    display: flex;
+    margin-top: 45px;
+    max-height: 100%;
+    max-width: auto;
   }
   nav{
-    padding-right: 135px;
+      padding-right: 13%;
   }
 nav ul{
     justify-content: right;
-    display: flex;
+    display:;
   }
 nav li{
     display: inline-block;
@@ -233,13 +240,28 @@ nav li{
   section {
     flex-direction: row;
   }
-  .about .col1 {
-    flex: 50%;
-    padding: 0 60px;
+
+  p {
+    text-align: left;
   }
+
+  h2 {
+    text-align: left;
+  }
+
+  .about .col1 {
+    flex: 5px;
+    margin-left: x;
+    }
+  .col1 {
+    max-width: 74%;
+    margin-right: px;
+  }
+
   .about .col2 {
     flex: 50%;
-    padding: 0 60px;
+    padding: 0 1px;
+    text-align: left;
   }
   .work .col1 {
     flex: 40%;
@@ -255,3 +277,194 @@ nav li{
     padding-top: 6%;
   }
 }
+
+footer{
+  border-top: 2px solid gray;
+  margin-top: 7%;
+}
+
+.footer-text{
+  text-align: center;
+}
+.large-footer{
+  text-align: center;
+  margin-top:;
+}
+
+.contact-me{
+  background-color: rgba(66, 175, 222, 1);
+  border-radius: 3px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-left: 40%;
+  margin-right: 40%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  }
+
+  .bottom{
+    margin-left: 13%;
+    text-align: center;
+  }
+
+  .symbols{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .footer-images{
+
+  }
+
+.linkedin-size-footer{
+  height: 50px;
+  width: auto;
+}
+
+.instagram-size-footer{
+  height: 50px;
+  width: auto;
+}
+
+.email-size-footer{
+  height: 50px;
+  width: auto;
+}
+}
+
+@media only screen and (min-width: 1280px) {
+  header {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo{
+    display: flex;
+    padding: 0 60px;
+    }
+  .fuck img {
+    margin-top: 45px;
+    height: 400px;
+    width: auto;
+  }
+  nav{
+      padding-right: 13%;
+  }
+
+nav ul{
+    justify-content: right;
+    display:;
+  }
+nav li{
+    display: inline-block;
+    margin-left: 25%;
+  }
+
+  .hide-mobile {
+
+  }
+
+  section {
+    flex-direction: row;
+  }
+
+  h1 {
+
+  }
+
+  h2 {
+    text-align: left;
+  }
+
+  p {
+    text-align: left;
+  }
+
+  .about .col1 {
+    flex: 50%;
+    }
+
+  .about .col2 {
+    flex: 50%;
+    padding: 0 1px;
+    text-align: left;
+    max-width: 60%;
+  }
+  .work .col1 {
+    flex: 40%;
+    padding: 0 60px;
+  }
+  .work .col1 img{
+    width: 100%;
+    height: auto;
+  }
+  .work .col2 {
+    flex: 60%;
+    padding: 0 60px;
+    padding-top: 6%;
+  }
+}
+
+footer{
+  border-top: 2px solid gray;
+  margin-top: 7%;
+}
+
+.footer-text{
+  text-align: center;
+}
+.large-footer{
+  text-align: center;
+  margin-top:;
+}
+
+.contact-me{
+  background-color: rgba(66, 175, 222, 1);
+  border-radius: 3px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-left: 40%;
+  margin-right: 40%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  }
+
+  .bottom{
+    margin-left: 13%;
+    text-align: center;
+  }
+
+  .symbols{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .footer-images{
+
+  }
+
+.linkedin-size-footer{
+  height: 50px;
+  width: auto;
+}
+
+.instagram-size-footer{
+  height: 50px;
+  width: auto;
+}
+
+.email-size-footer{
+  height: 50px;
+  width: auto;
+}
+}
+
+@media only screen and (min-width: 1440px){
+  body {
+    background: red;
+  }
+} 
