@@ -276,7 +276,6 @@ nav li{
     padding: 0 60px;
     padding-top: 6%;
   }
-}
 
 footer{
   border-top: 2px solid gray;
@@ -332,7 +331,7 @@ footer{
   height: 50px;
   width: auto;
 }
-}
+
 
 @media only screen and (min-width: 1280px) {
   header {
@@ -346,7 +345,7 @@ footer{
     }
   .fuck img {
     margin-top: 45px;
-    height: 400px;
+    height: 200px;
     width: auto;
   }
   nav{
@@ -398,14 +397,12 @@ nav li{
   }
   .work .col1 img{
     width: 100%;
-    height: auto;
   }
   .work .col2 {
     flex: 60%;
     padding: 0 60px;
-    padding-top: 6%;
+    margin-bottom: 400px;
   }
-}
 
 footer{
   border-top: 2px solid gray;
@@ -467,4 +464,4 @@ footer{
   body {
     background: red;
   }
-} 
+}
