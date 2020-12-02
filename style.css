@@ -77,7 +77,7 @@ p {
   .product-designer{
     color: rgba(66, 175, 222, 1);
   }
-  .fuck{
+  .about .col1 img{
     display: none;
   }
 
@@ -91,8 +91,7 @@ p {
   }
 
   .about {
-    max-height: 140px;
-    max-width: 380px;
+    width: 100%;
     margin-bottom: 50%;
   }
   .about .col1 {
@@ -102,6 +101,8 @@ p {
   .about .col2 {
     flex: 50%;
     padding: 0 16px;
+    width: 65%;
+    margin: auto;
   }
   .green{
     margin-top: 20%;
@@ -147,7 +148,7 @@ align-items: center;
     width: 100%;
     height: auto;
   }
-}
+
 
 footer{
   border-top: 2px solid gray;
@@ -156,7 +157,7 @@ footer{
 
 .large-footer{
   text-align: center;
-  margin-top:;
+
 }
 
 .footer-text{
@@ -169,21 +170,22 @@ footer{
   color: white;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  margin-left: 90px;
-  margin-right: 90px;
+  margin-left: 30%;
+  margin-right: 30%;
   padding-top: 10px;
   padding-bottom: 10px;
   }
 
 .bottom {
-margin-left: 20%;
-margin-right: 20%;
-justify-content: center;
-}
+  margin: 0;
+  }
 
 .symbols{
   display: flex;
   justify-content: space-around;
+  margin: auto;
+  width: 50%;
+  padding: 0;
   }
 
 .footer-images{
@@ -217,18 +219,16 @@ justify-content: center;
     display: flex;
     padding: 0 60px;
     }
-  .fuck {
+  .about .col1 img {
     display: flex;
     margin-top: 45px;
     max-height: 100%;
-    max-width: auto;
   }
   nav{
       padding-right: 13%;
   }
 nav ul{
     justify-content: right;
-    display:;
   }
 nav li{
     display: inline-block;
@@ -252,11 +252,9 @@ nav li{
 
   .about .col1 {
     flex: 5px;
-    margin-left: x;
     }
   .col1 {
     max-width: 74%;
-    margin-right: px;
   }
 
   .about .col2 {
@@ -288,7 +286,6 @@ footer{
 }
 .large-footer{
   text-align: center;
-  margin-top:;
 }
 
 .contact-me{
@@ -339,15 +336,21 @@ footer{
     width: 100vw;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 2%;
   }
   .logo{
     display: flex;
     padding: 0 60px;
     }
-  .fuck img {
+  .logo img {
+    height: 100%;
+    width: auto;
+  }
+
+  .col1 img {
     display: flex;
-    margin-top: 45px;
-    height: 200px;
+    margin-top: 15%;
+    height: 94%;
     width: auto;
   }
   nav{
@@ -356,7 +359,6 @@ footer{
 
 nav ul{
     justify-content: right;
-    display:;
   }
 nav li{
     display: inline-block;
@@ -372,15 +374,22 @@ nav li{
   }
 
   h1 {
-
+    font-size: 40px;
   }
 
   h2 {
     text-align: left;
+    font-size: 30px;
   }
 
   p {
     text-align: left;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .about {
+    margin-bottom: 5%;
   }
 
   .about .col1 {
@@ -389,22 +398,54 @@ nav li{
 
   .about .col2 {
     flex: 50%;
-    padding: 0 1px;
     text-align: left;
-    max-width: 60%;
+    margin-right: 4%;
+    margin-left: 12%;
+    margin-top: 1%;
   }
+
+  .buttons{
+    margin-right: 20%;
+  }
+
+  .green{
+    margin-top: 9%;
+    padding-bottom: 3%;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  .blue{
+  margin-top: 2%;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  }
+
   .work .col1 {
     flex: 40%;
-    padding: 0 60px;
+    padding-left: 131px;
+    padding-right: 0;
+    margin-left: 4%
   }
+
+
   .work .col1 img{
-    width: 100%;
+    height: 100%;
+    width: auto;
+    margin: 0;
+  }
+
+  .work .col1 .dope{
+
   }
   .work .col2 {
     flex: 60%;
-    padding: 0 60px;
-    margin-top: 400px;
-  }
+    margin-top: 8%;
+    margin-right: 7%;
+    padding: 0;
+      }
 
 footer{
   border-top: 2px solid gray;
@@ -416,7 +457,6 @@ footer{
 }
 .large-footer{
   text-align: center;
-  margin-top:;
 }
 
 .contact-me{
@@ -424,22 +464,24 @@ footer{
   border-radius: 3px;
   color: white;
   font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
   text-align: center;
-  margin-left: 40%;
-  margin-right: 40%;
+  margin-left: 43%;
+  margin-right: 43%;
   padding-top: 10px;
   padding-bottom: 10px;
   }
 
   .bottom{
-    margin-left: 13%;
-    text-align: center;
+  margin: 0;
   }
 
   .symbols{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    margin: auto;
+    width: 20%;
+    padding: 0;
   }
 
   .footer-images{
