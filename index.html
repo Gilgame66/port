@@ -5,18 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio | Harrison Klostreich</title>
     <link rel="reset" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     </head>
   <body>
+    <div class="background">
     <header>
         <div class="logo">
           <img src="images/harry.png" alt="vinyl record with K in the center">
         </div>
       <nav>
         <ul class="nav-links">
-          <li class="navigation line">Work</li>
-          <li class="navigation">About</li>
-          <li class="navigation love">Contact</li>
+          <li class="navigation line"><a href="index.html">Work</a></li>
+          <li class="navigation"><a href="about.html">About</a></li>
+          <li class="navigation love"><a href="mailto:harrisonklostreich@gmail.com">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -31,10 +33,10 @@
                     <p>Hello! My name is Harrison Klostreich, a UI UX Designer based in Asbury Park, New Jersey.</p>
                       <div class="buttons">
                       <ul class="icons">
-                        <li class="fuckme"><img src="images/aboutme.png" alt="about me button" class="aboutme-size"></li>
-                        <li class="fuckme"><img src="images/Linkedin.png" alt="A linkedin button" class="linkedin-size"></li>
-                        <li class="fuckme"><img src="images/Instagram.png" alt="Instagram!" class="instagram-size"></li>
-                        <li class="fuckme"><img src="images/Email.png" alt="Email!" class="email-size"></li>
+                        <a href="about.html" target="_self"  <li class="fuckme"><img src="images/aboutme.png" alt="about me button" class="aboutme-size"></li></a>
+                        <a href="https://www.linkedin.com/in/harrison-klostreich/" target="_blank"><li class="fuckme"><img src="images/Linkedin.png" alt="A linkedin button" class="linkedin-size"></li></a>
+                        <a href="https://www.instagram.com/saint_ajora/" target="_blank"><li class="fuckme"><img src="images/Instagram.png" alt="Instagram!" class="instagram-size"></li></a>
+                        <a href="mailto:harrisonklostreich@gmail.com"><li class="fuckme"><img src="images/Email.png" alt="Email!" class="email-size"></li></a>
                       </ul>
                     </div>
               </article>
@@ -46,7 +48,8 @@
             <article class="col2">
                 <h2>Cloud</h2>
                   <p>Cloud based storage solution with social sharing and real-time editing/document updates. </p>
-            </article>
+                    <a href="https://www.figma.com/proto/XnI6dn7RjVzZ2m8hGpVKZl/UX-Intensive-Finishing-Touches?node-id=1%3A73&viewport=675%2C481%2C0.11548719555139542&scaling=min-zoom" target="_blank"><p class="proto-button1">View Prototype</p></a>
+                  </article>
            </section>
             <section class="work blue">
               <article class="col1">
@@ -55,20 +58,22 @@
               <article class="col2">
                   <h2>Busy Bus</h2>
                     <p>The simple public transit solution.</p>
+                    <p class="proto-button2">View Prototype</p>
               </article>
           </section>
         </main>
         <footer>
           <h2 class="large-footer">Down to talk? Let’s chat!</h2>
             <p class="footer-text">I’m always looking to connect with people. Let’s talk design, music, or your favorite coffee!</p>
-            <p class="contact-me">Contact</p>
+            <a href="mailto:harrisonklostreich@gmail.com"><p class="contact-me">Contact</p></a>
               <div class="bottom">
                 <ul class="symbols">
-                  <li class="footer-images"><img src="images/Linkedin.png" alt="A linkedin button" class="linkedin-size-footer"></li>
-                  <li class="footer-images"><img src="images/Instagram.png" alt="Instagram!" class="instagram-size-footer"></li>
-                  <li class="footer-images"><img src="images/Email.png" alt="Email!" class="email-size-footer"></li>
+                  <a href="https://www.linkedin.com/in/harrison-klostreich/" target="_blank"><li class="footer-images"><img src="images/Linkedin.png" alt="A linkedin button" class="linkedin-size-footer"></li></a>
+                    <a href="https://www.instagram.com/saint_ajora/" target="_blank"><li class="footer-images"><img src="images/Instagram.png" alt="Instagram!" class="instagram-size-footer"></li></a>
+                  <a href="mailto:harrisonklostreich@gmail.com"><li class="footer-images"><img src="images/Email.png" alt="Email!" class="email-size-footer"></li></a>
               </ul>
             </div>
         </footer>
+      </div>
   </body>
 </html>

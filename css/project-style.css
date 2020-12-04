@@ -19,9 +19,15 @@ section {
 }
 
 body{
-  background-image: url("images/white-background.jpg");
+  background-image: url("/images/white.jpg");
   background-repeat: repeat;
-  opacity: 70%;
+  margin: 0;
+}
+
+.background{
+  height: 100%;
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.85);
 }
 
 @media only screen and (min-device-width: 360px) {
