@@ -19,20 +19,28 @@ section {
 }
 
 body{
-  background-image: url("/images/white.jpg");
   background-repeat: repeat;
-  margin: 0;
+  background-image: url('../images/white.jpg');
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: 'Lora', serif;
+  line-height: 23px;
+  margin: 0%;
+
 }
 
-.background{
+.background-image{
+  background-color: rgba(255, 255, 255, 0.85);
   height: 100%;
   width: auto;
-  background-color: rgba(255, 255, 255, 0.85);
+  padding-bottom: 5%;
 }
 
-@media only screen and (min-device-width: 360px) {
+@media only screen and (min-device-width: 480px) {
+
+
   .logo {
-    padding: 0 8px;
+    padding: 0 4%;
 }
   .logo img {
     height: 67px;
@@ -40,21 +48,33 @@ body{
   }
 
 header{
+  padding-top: 2%;
   display: flex;
 }
-  nav{
-    margin-left: 7%;
-  }
+
   .nav-links{
     display: flex;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mada', sans-serif;
     justify-content: center;
-
+    margin-right: 76%;
     }
+
   .navigation{
     display: inline-block;
-    margin-left: 5%;
-    padding: 0px 3px;
+    margin-left: 90%;
+    padding: 0px 9px;
+  }
+
+  .love{
+    background-color: rgba(66, 175, 222, 1);
+    border-radius: 3px;
+    color: white;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 16px;
+    padding-bottom: 5px;
+    margin-top: -5px;
+    margin-left: 5px;
   }
 
   .first{
@@ -75,19 +95,19 @@ header{
 
 h1 {
   font-size: 35px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Mada', sans-serif;
   margin-bottom: 13px;
 }
 
 h2 {
   font-size: 23px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Mada', sans-serif;
   margin-bottom: -8px;
 }
 
 h3 {
   font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Mada', sans-serif;
 }
 p {
   font-size: 15px;
@@ -117,17 +137,33 @@ p {
 }
 
 .section-description{
-    max-width: 295px;
+    max-width: 90%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 9%;
+    margin-bottom: 9%;
 }
 
 .deliverables{
   display: flex;
   flex-direction: column;
 }
-
+  .flex-column{
+    display: flex;
+  }
   .user{
-    padding: 0 16px;
+    flex: 25%;
+    line-height: 23px;
+    margin-left: 8%;
+    margin-right: 8%;
       }
+
+  .user2{
+    flex: 25%;
+    line-height: 23px;
+    margin-left: 8%;
+    margin-right: 8%;
+    }
 
   .research{
     font-weight: bold;
@@ -163,13 +199,13 @@ p {
 
   .problem{
     flex: 50%;
-    padding: 0 16px;
     margin-top: 3%;
   }
 
     .problem-header{
       color: rgba(66, 175, 222, 1);
       text-align: center;
+      margin-bottom: 3%;
   }
 
   .problem-description{
@@ -193,8 +229,8 @@ p {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3%;
-    max-width: 100%;
-    max-height: auto;
+    max-width: 95%;
+
   }
 
   .solution-description{
@@ -211,21 +247,15 @@ p {
       color: rgba(66, 175, 222, 1);
       text-align: center;
       padding-bottom: 13%;
+      line-height: 29px;
+      margin-top: 7%;
+      margin-right: 12%;
+      margin-left: 12%;
+
   }
 
 .survey-header{
     text-align: center;
-    margin-bottom: -5%;
-  }
-
-.solution img {
-    display: flex;
-    padding-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 3%;
-    max-width: 100%;
-    max-height: auto;
   }
 
   .survey-description{
@@ -235,13 +265,12 @@ p {
   }
 
   .how-old {
-      display: flex;
-      padding-top: 5%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 3%;
-      max-width: 100%;
-      max-height: auto;
+    display: flex;
+    padding-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    max-width: 90%;
     }
 
 .options {
@@ -288,7 +317,7 @@ p {
       padding: 0 16px;
     }
 .analysis {
-    padding: 0 16px;
+    padding: 0 0;
 }
 
 .competitive-header {
@@ -355,8 +384,8 @@ p {
 
 .personas-header{
   text-align: center;
-  margin-bottom: 7%;
-  margin-top: 8%;
+  margin-bottom: 3%;
+  margin-top: 6%;
 }
 
 .persona1 {
@@ -377,29 +406,30 @@ p {
   }
 
 .job-title{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Mada', sans-serif;
   font-weight: bold;
-  margin-left: 17%;
-  margin-right: 11%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: -4%;
 }
 
 .age-location{
   display: flex;
+  margin-left: 9%;
   margin-top: -5%;
 }
 
 .age{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Mada', sans-serif;
   font-weight: bold;
-  margin-right: 16%;
-  margin-left: 17%;
+  margin-right: 12%;
+  margin-left: 18.5%;
 }
 
 .location{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Mada', sans-serif;
   font-weight: bold;
-  margin-left: 8%;
+  margin-left: 7%;
 }
 
 .motivations-header{
@@ -418,48 +448,54 @@ p {
   .goals-header{
     color: rgba(66, 175, 222, 1);
     font-size: 20px;
+    margin-left: 6%;
+    margin-right: 6%;
     padding: 0 16px;
   }
 
   .goal-list1{
-    padding: 0 16px;
+    margin-left: 6%;
+    margin-right: 6%;
     margin-top: -1%;
     margin-bottom: -8px;
   }
 
   .goal-list2{
-    padding: 0 16px;
+    margin-left: 6%;
+    margin-right: 6%;
   }
 
   .goal-list3{
-    padding: 0 16px;
+    margin-left: 6%;
+    margin-right: 6%;
     margin-top: -2%;
   }
 
   .job-title-sean {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mada', sans-serif;
     font-weight: bold;
-    margin-left: 30%;
+    margin-left: 36%;
     margin-right: auto;
     margin-top: -4%;
   }
 
   .age-location-sean{
     display: flex;
+    margin-left: 9%;
     margin-top: -5%;
   }
 
   .age-sean{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mada', sans-serif;
     font-weight: bold;
-    margin-right: 14%;
-    margin-left: 15%;
+    margin-right: 9%;
+    margin-left: 18.5%;
   }
 
   .location-sean{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mada', sans-serif;
     font-weight: bold;
-    margin-left: 8%;
+    margin-left: 5%;
   }
 
 .user-stories-img{
@@ -468,28 +504,35 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 3%;
-  max-width: 100%;
+  max-width: 90%;
   max-height: auto;
 }
 
 .user-descriptions {
-    max-width: 295px;
+    max-width: 90%;
+    margin-left: 6%;
+    margin-right: 6%;
     margin-bottom: 5%;
-    padding: 0 16px;
   }
 
   .high {
-    padding: 0 16px;
+    font-weight: bold;
+    margin-left: 6%;
+    margin-right: 9%;
     margin-top: -1%;
   }
 
   .mid {
-    padding: 0 16px;
+    font-weight: bold;
+    margin-left: 6%;
+    margin-right: 9%;
     margin-top: -1%;
   }
 
   .low {
-    padding: 0 16px;
+    font-weight: bold;
+    margin-left: 6%;
+    margin-right: 9%;
     margin-top: -1%;
   }
 
@@ -527,34 +570,43 @@ p {
   color: rgba(66, 175, 222, 1);
   font-size: 25px;
   text-align: center;
-  margin-bottom: 8%;
-  padding: 0 16px;
+  margin-bottom: 4%;
+
 }
 
 .first-it-home{
   display: flex;
-  padding-top: 5%;
+  margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5%;
   max-width: 90%;
   max-height: auto;
+  box-shadow: 1px 1px 8px #D5D5D5;
+}
+
+.shadows{
+
 }
 
 .view-type{
   background-color: rgba(66, 175, 222, 1);
   border-radius: 3px;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: normal;
+  text-align: center;
   padding-left: 20px;
-  padding-right: auto;
+  padding-right: 20px;
   padding-top: 8px;
   padding-bottom: 8px;
-  margin-left: 25%;
-  margin-right: 25%;
   margin-bottom: 65px;
   margin-top: 25px;
+}
+
+.view-button{
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
   .product-description {
@@ -562,7 +614,7 @@ p {
     margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
-    max-width: 60%;
+    max-width: 70%;
   }
 
   .dope {
@@ -610,12 +662,13 @@ footer{
   background-color: rgba(66, 175, 222, 1);
   border-radius: 3px;
   color: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Mada', sans-serif;
+  font-size: 18px;
   text-align: center;
-  margin-left: 90px;
-  margin-right: 90px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding-top: 8px;
+  padding-bottom: 8px;
   }
 
 .bottom{
@@ -650,7 +703,7 @@ footer{
 }
 
 nav{
-  padding-right: 135px;
+  padding-left: 36.5%;
 }
 nav ul{
   justify-content: right;
@@ -691,7 +744,7 @@ section .deliverables li {
       width: auto;
   }
   nav{
-    padding-right: 135px;
+
   }
   nav ul{
     justify-content: right;

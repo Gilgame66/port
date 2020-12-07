@@ -11,18 +11,23 @@ section {
 }
 .blue {
   background-color: rgba(0, 178, 255, 0.36);
+  padding-top: 5%;
+
 }
 
 body{
   background-image: url("/images/white.jpg");
   background-repeat: repeat;
-  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lora', serif;
+  margin: 0%;
 }
 
 .background{
   height: 100%;
   width: auto;
   background-color: rgba(255, 255, 255, 0.85);
+  padding: 1%;
 }
 
 @media only screen and (min-width: 480px) {
@@ -43,7 +48,7 @@ header{
   }
   .nav-links{
     display: flex;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mada', sans-serif;
     justify-content: right;
     margin-left: 10%;
 
@@ -71,13 +76,13 @@ header{
 
 h1 {
   font-size: 35px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Mada', sans-serif;
   margin-bottom: 13px;
 }
 
 h2 {
   font-size: 23px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Mada', sans-serif;
   margin-bottom: -8px;
 }
 
@@ -105,7 +110,7 @@ p {
 
   .about {
     width: 100%;
-    margin-bottom: 50%;
+    margin-bottom: 30%;
   }
   .about .col1 {
     flex: 50%;
@@ -114,7 +119,7 @@ p {
   .about .col2 {
     flex: 50%;
     padding: 0 16px;
-    width: 65%;
+    width: 68%;
     margin: auto;
   }
   .green{
@@ -162,6 +167,33 @@ align-items: center;
     height: auto;
   }
 
+  .proto-button1{
+    background-color: rgba(65, 137, 59, 0.85);
+    border-radius: 3px;
+    display: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 7%;
+    margin-right: 48%;
+  }
+
+  .proto-button2{
+    background-color: rgba(0, 178, 255, 0.85);
+    border-radius: 3px;
+    display: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 7%;
+    margin-right: 48%;
+  }
 
 footer{
   border-top: 2px solid gray;
@@ -542,11 +574,5 @@ footer{
 .email-size-footer{
   height: 50px;
   width: auto;
-  }
-}
-
-@media only screen and (min-width: 1440px) {
-  body {
-
   }
 }
