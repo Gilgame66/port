@@ -65,7 +65,7 @@ header{
     padding: 0px 9px;
   }
 
-  .love{
+  .stage{
     background-color: rgba(66, 175, 222, 1);
     border-radius: 3px;
     color: white;
@@ -208,10 +208,6 @@ p {
       margin-bottom: 3%;
   }
 
-  .problem-description{
-      max-width: 295px;
-  }
-
   .solution{
     flex: 50%;
     padding: 0 16px;
@@ -273,35 +269,7 @@ p {
     max-width: 90%;
     }
 
-.options {
-    display: flex;
-    padding-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 3%;
-    max-width: 100%;
-    max-height: auto;
-    }
 
-.interest {
-      display: flex;
-      padding-top: 5%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 3%;
-      max-width: 95%;
-      max-height: auto;
-        }
-
-.dodo {
-      display: flex;
-      padding-top: 5%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 3%;
-      max-width: 100%;
-      max-height: auto;
-          }
 
 .competitive-section-header {
   color: rgba(66, 175, 222, 1);
@@ -326,21 +294,7 @@ p {
       margin-top: 2.5%;
       }
 
-.box-drive {
-  display: flex;
-  padding-top: 5%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 3%;
-  max-width: 100%;
-  max-height: auto;
-}
 
-.boxdrive-description{
-  max-width: 295px;
-  margin-bottom: 5%;
-  margin-top: 9%;
-}
   .hero-image {
     width: 90%;
     height: auto;
@@ -350,21 +304,8 @@ p {
   }
 
 
-  .dropbox {
-    display: flex;
-    padding-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 3%;
-    max-width: 100%;
-    max-height: auto;
-  }
 
-  .dropbox-description {
-    max-width: 295px;
-    margin-bottom: 5%;
-    margin-top: 9%;
-  }
+
 
   .evernote {
     display: flex;
@@ -546,15 +487,6 @@ p {
     max-height: auto;
   }
 
-  .wire-frame-dash{
-    display: flex;
-    padding-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 3%;
-    max-width: 90%;
-    max-height: auto;
-  }
 
 .participant-header{
   text-align: center;
@@ -562,9 +494,7 @@ p {
   margin-top: 8%;
 }
 
-.lists{
-  margin-bottom: 8px;
-}
+
 
 .branding-section-header{
   color: rgba(66, 175, 222, 1);
@@ -583,10 +513,6 @@ p {
   max-width: 90%;
   max-height: auto;
   box-shadow: 1px 1px 8px #D5D5D5;
-}
-
-.shadows{
-
 }
 
 .view-type{
@@ -614,7 +540,7 @@ p {
     margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
-    max-width: 70%;
+    max-width: 40%;
   }
 
   .dope {
@@ -722,8 +648,7 @@ section .deliverables {
 section .deliverables article {
   flex: 1;
 }
-section .deliverables .user-research {
-}
+
 
 section .deliverables li {
   margin-left: 60px;
@@ -738,11 +663,7 @@ section .deliverables li {
   .logo{
     padding: 0 60px;
   }
-  .fuck {
-      display: flex;
-      height: 100%;
-      width: auto;
-  }
+
   nav{
 
   }
