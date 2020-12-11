@@ -1684,6 +1684,8 @@ margin-right: 17%;
   max-height: auto;
 }
 
+/* ".user-descriptions" is where most of the <p> text is stylized*/
+
 .user-descriptions {
     max-width: 90%;
     margin-left: 15%;
