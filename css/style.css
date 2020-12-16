@@ -2,6 +2,7 @@
   display: none;
 }
 
+/* These are global settings/stylings*/
 section {
   display: flex;
   flex-direction: column;
@@ -16,11 +17,11 @@ section {
 }
 
 body{
-  background-image: url("/images/white.jpg");
+  background-image: url("https://i.ibb.co/Br8kgG8/white.jpg");
   background-repeat: repeat;
   box-sizing: border-box;
   font-family: 'Lora', serif;
-  margin: 0%;
+  margin: 0;
 }
 
 .background{
@@ -28,6 +29,7 @@ body{
   width: auto;
   background-color: rgba(255, 255, 255, 0.85);
   padding: 1%;
+  margin: 0%;
 }
 
 @media only screen and (min-width: 480px) {
@@ -91,7 +93,7 @@ p {
   font-family: 'Lora', serif;
   line-height: 19px;
 }
-
+  /* These following lines are specifically for spacing and layout of the 'about me' section next to my hero image */
   .product-designer{
     color: rgba(66, 175, 222, 1);
   }
@@ -99,11 +101,11 @@ p {
     display: none;
   }
 
-  .desk {
+  .desk-top {
     padding-top: 3%;
     margin-bottom: -3%;
   }
-  .dope {
+  .busy-bus {
     margin-top: -5%;
     margin-bottom: -12%;
   }
@@ -136,18 +138,19 @@ p {
     max-width: 380px;
   }
 
+/* "icons" refers to the group of icons, while "about-icons" refers to each individual icon */
   .icons {
-padding: 0;
-display: flex;
-justify-content: space-between;
-align-items: center;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .about-icons{
   display: inline-block;
   padding-right: 10px;
   }
-
+/* this begins the two individual sections for each past project */
   .work .col1 {
     width: 90%;
     height: auto;
@@ -194,6 +197,8 @@ align-items: center;
     padding-left: 7%;
     margin-right: 48%;
   }
+
+/* Footer styling! */
 
 footer{
   border-top: 2px solid gray;
@@ -252,6 +257,36 @@ footer{
   height: 50px;
   width: auto;
   }
+
+/* The following lines are specifically for about.html*/
+.align{
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.weight{
+  font-weight: normal;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+.top-headline{
+  margin-bottom: 1%;
+}
+
+.second-headline{
+  text-align: center;
+  margin-top: 15%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/* This is where I made a div to contain each of the three sections, in order to space properly*/
+
+.music-and-design{
+  margin-top: 15%;
+}
 }
 
 @media only screen and (min-width: 768px) {
@@ -287,11 +322,23 @@ nav li{
     flex-direction: row;
   }
 
-  p {
+  h1 {
+    font-size: 45px;
+    font-family: 'Mada', sans-serif;
     text-align: left;
+    margin-bottom: 13px;
   }
 
   h2 {
+    font-size: 33px;
+    font-family: 'Mada', sans-serif;
+    text-align: left;
+  }
+
+  p {
+    font-size: 18px;
+    font-family: 'Lora', serif;
+    line-height: 26px;
     text-align: left;
   }
 
@@ -356,10 +403,6 @@ footer{
     align-items: center;
   }
 
-  .footer-images{
-
-  }
-
 .linkedin-size-footer{
   height: 50px;
   width: auto;
@@ -373,6 +416,46 @@ footer{
 .email-size-footer{
   height: 50px;
   width: auto;
+}
+
+/* The following lines are specifically for about.html*/
+.align{
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.weight{
+  font-weight: normal;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+.top-headline{
+  margin-bottom: 1%;
+}
+
+.second-headline{
+  text-align: center;
+  margin-top: 15%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.headline{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.column {
+  flex-direction: column;
+}
+
+/* This is where I made a div to contain each of the three sections, in order to space properly*/
+
+.music-and-design{
+  margin-top: 15%;
 }
 }
 
@@ -576,5 +659,54 @@ footer{
 .email-size-footer{
   height: 50px;
   width: auto;
+  }
+
+  /* The following lines are specifically for about.html*/
+  .align{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  .weight{
+    font-weight: normal;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+  .top-headline{
+    margin-bottom: 1%;
+  }
+
+  .second-headline{
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .headline{
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: column-reverse;
+  }
+
+  .column {
+    flex-direction: column;
+  }
+
+/* These lines are where I implement flexes for the text and images in about.html*/
+
+#large-scale{
+margin-left: -25%;
+  }
+
+  /* This is where I made a div to contain each of the three sections, in order to space properly*/
+
+  .music-and-design{
+    display: reverse;
+    margin-top: 15%;
+
   }
 }
