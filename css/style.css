@@ -520,6 +520,16 @@ nav li{
     text-align: left;
   }
 
+/* The .green and .blue tags is  specifically to increase the bottom padding in the 1280px version*/
+  .green {
+    padding-bottom: 22px;
+  }
+
+  .blue{
+    padding-top: 0%;
+    padding-bottom: 2%;
+  }
+
   .about .col1 {
     flex: 5px;
     }
