@@ -32,6 +32,16 @@ body{
   margin: 0%;
 }
 
+/* the 'a' is referring to link styling*/
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:link {
+  color: white;
+}
+
 @media only screen and (min-width: 480px) {
   .logo {
     padding: 0 8px;
@@ -318,9 +328,6 @@ nav li{
   .hide-mobile {
     display: block;
   }
-  section {
-    flex-direction: row;
-  }
 
   h1 {
     font-size: 45px;
@@ -464,150 +471,85 @@ footer{
     width: 100vw;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 2%;
-    margin-top: 0;
-    padding-top: 1%;
-        }
-
+  }
   .logo{
-    display: inline-block;
+    display: flex;
     padding: 0 60px;
     }
-
-  .logo img {
-    height: 100%;
-    width: auto;
-      }
-
-  .col1 img {
+  .about .col1 img {
     display: flex;
-    margin-top: 15%;
-    height: 94%;
-    width: auto;
+    margin-top: 45px;
+    max-height: 100%;
   }
-
   nav{
-    padding-left: 5%;
-   }
-
- nav ul{
-     justify-content: right;
-   }
- nav li{
-     display: inline-block;
-     margin-left: 25%;
-   }
+      padding-right: 13%;
+  }
+nav ul{
+    justify-content: right;
+  }
+nav li{
+    display: inline-block;
+    margin-left: 25%;
+    font-size: 20px;
+  }
 
   .hide-mobile {
-
+    display: block;
   }
-
   section {
     flex-direction: row;
   }
 
   h1 {
-    font-size: 40px;
+    font-size: 45px;
+    font-family: 'Mada', sans-serif;
+    text-align: left;
+    margin-bottom: 13px;
   }
 
   h2 {
+    font-size: 33px;
+    font-family: 'Mada', sans-serif;
     text-align: left;
-    font-size: 30px;
   }
 
   p {
+    font-size: 22px;
+    font-family: 'Lora', serif;
+    line-height: 32px;
     text-align: left;
-    font-size: 20px;
-    line-height: 24px;
-  }
-
-  .about {
-    margin-bottom: 5%;
   }
 
   .about .col1 {
-    flex: 50%;
+    flex: 5px;
     }
+  .col1 {
+    max-width: 74%;
+  }
 
   .about .col2 {
     flex: 50%;
+    padding: 0 1px;
     text-align: left;
+    margin-left: 8%;
     margin-right: 4%;
-    margin-left: 12%;
-    margin-top: 1%;
   }
-
-  .buttons{
-    margin-right: 20%;
-  }
-
-  .green{
-    margin-top: 9%;
-    padding-bottom: 3%;
-    margin-left: 60px;
-    margin-right: 60px;
-  }
-
-  .blue{
-  margin-top: 2%;
-  margin-left: 60px;
-  margin-right: 60px;
-  padding-bottom: 0px;
-  padding-top: 0px;
-  }
-
   .work .col1 {
     flex: 40%;
-    padding-left: 131px;
-    padding-right: 0;
-    margin-left: 4%
+    padding: 0 60px;
+    margin-left: 4%;
+    margin-right: 5%;
   }
-
-
   .work .col1 img{
-    height: 100%;
-    width: auto;
-    margin: 0;
+    width: 100%;
+    height: auto;
   }
-
   .work .col2 {
     flex: 60%;
-    margin-top: 8%;
-    margin-right: 7%;
-    padding: 0;
-      }
-
-    .protoman{
-      font-size: 200px;
-    }
-    .proto-button1{
-      background-color: rgba(65, 137, 59, 0.85);
-      border-radius: 3px;
-      color: white;
-      display: block;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 20px;
-      font-weight: 100;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      padding-left: 7%;
-      margin-right: 48%;
-    }
-
-    .proto-button2{
-      background-color: rgba(0, 178, 255, 0.85);
-      border-radius: 3px;
-      color: white;
-      display: block;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 20px;
-      font-weight: 100;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      padding-left: 7%;
-      margin-right: 48%;
-    }
-
+    padding: 0 60px;
+    padding-top: 6%;
+    margin-right: 9%;
+  }
 
 footer{
   border-top: 2px solid gray;
@@ -626,24 +568,22 @@ footer{
   border-radius: 3px;
   color: white;
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
   text-align: center;
-  margin-left: 43%;
-  margin-right: 43%;
+  margin-left: 40%;
+  margin-right: 40%;
   padding-top: 10px;
   padding-bottom: 10px;
   }
 
   .bottom{
-  margin: 0;
+    margin-left: 17%;
+    margin-right: 17%;
   }
 
   .symbols{
     display: flex;
     justify-content: space-around;
-    margin: auto;
-    width: 20%;
-    padding: 0;
+    align-items: center;
   }
 
 .linkedin-size-footer{
@@ -659,54 +599,51 @@ footer{
 .email-size-footer{
   height: 50px;
   width: auto;
-  }
+}
 
-  /* The following lines are specifically for about.html*/
-  .align{
-    text-align: center;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-  }
-  .weight{
-    font-weight: normal;
-    text-align: center;
-    margin-top: 2%;
-    margin-bottom: 5%;
-  }
-  .top-headline{
-    margin-bottom: 1%;
-  }
+/* The following lines are specifically for about.html*/
+.align{
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.weight{
+  font-weight: normal;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+.top-headline{
+  margin-bottom: 1%;
+}
 
-  .second-headline{
-    text-align: center;
-    margin-top: 15%;
-    margin-left: 20%;
-    margin-right: 20%;
-  }
+.second-headline{
+  text-align: center;
+  margin-top: 15%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
 
-  .headline{
-    margin-right: auto;
-    margin-left: auto;
-    flex-direction: column-reverse;
-  }
+.headline{
+  margin-left: 26%;
+}
 
-  .column {
-    flex-direction: column;
-  }
 
-/* These lines are where I implement flexes for the text and images in about.html*/
+.column {
+  flex-direction: column;
+}
+.text-length{
+  margin-left: -2%;
+  margin-right: -2%;
+}
 
-#large-scale{
-margin-left: -25%;
-  }
+/* This is where I made a div to contain each of the three sections, in order to space properly*/
 
-  /* This is where I made a div to contain each of the three sections, in order to space properly*/
-
-  .music-and-design{
-    display: reverse;
-    margin-top: 15%;
-
-  }
+.music-and-design{
+  display: block;
+  margin-top: 15%;
+  margin-left: 7%;
+}
 }
