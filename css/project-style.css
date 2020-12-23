@@ -1337,13 +1337,13 @@ h3 {
   font-family: 'Mada', sans-serif;
 }
 p {
-  font-size: 20px;
+  font-size: 22px;
   font-family: 'Lora', serif;
   line-height: 34px;
 }
 
 li{
-  font-size: 18px;
+  font-size: 22px;
 }
 
 
@@ -1786,8 +1786,8 @@ margin-right: 17%;
 }
 
 .view-button{
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
 }
 
   .product-description {
@@ -1836,6 +1836,7 @@ footer{
 }
 
 .large-footer{
+  font-size: 33px;
   text-align: center;
   margin-bottom: 2%;
 }
@@ -1847,24 +1848,22 @@ footer{
   font-family: 'Mada', sans-serif;
   font-size: 25px;
   text-align: center;
-  margin-left: 36%;
-  margin-right: 36%;
+  margin-left: 41%;
+  margin-right: 41%;
   padding-top: 8px;
   padding-bottom: 8px;
   }
 
 .bottom{
   margin-left: -13%;
-  text-align: center;
-}
+  }
 
 .symbols{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-right: 25%;
-  margin-left: 33%;
-  width: 40%;
+  margin-left: 41%;
+  width: 23%;
 }
 
 
@@ -1873,17 +1872,17 @@ footer{
 }
 
 .linkedin-size-footer{
-  height: 50px;
+  height: 60px;
   width: auto;
 }
 
 .instagram-size-footer{
-  height: 50px;
+  height: 60px;
   width: auto;
 }
 
 .email-size-footer{
-  height: 50px;
+  height: 60px;
   width: auto;
 }
 
