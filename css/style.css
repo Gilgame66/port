@@ -371,6 +371,14 @@ nav li{
     padding: 0 1px;
     text-align: left;
   }
+
+.about-icon-size{
+  width: 50px;
+}
+.aboutme-size{
+  width: 120px;
+}
+
   .work .col1 {
     flex: 40%;
     padding: 0 60px;
@@ -517,11 +525,19 @@ footer{
     width: 100vw;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    align-items: center;
   }
   .logo{
     display: flex;
     padding: 0 60px;
     }
+    .logo img {
+    height: 130px;
+      width: auto;
+    }
+
   .about .col1 img {
     display: flex;
     margin-top: 45px;
@@ -684,20 +700,21 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 39%;
   }
 
 .linkedin-size-footer{
-  height: 50px;
+  height: 60px;
   width: auto;
 }
 
 .instagram-size-footer{
-  height: 50px;
+  height: 60px;
   width: auto;
 }
 
 .email-size-footer{
-  height: 50px;
+  height: 60px;
   width: auto;
 }
 
@@ -730,6 +747,10 @@ footer{
   margin-left: 26%;
 }
 
+.about-me-page-icons {
+  height: 100px;
+  width: auto;
+}
 
 .column {
   flex-direction: column;

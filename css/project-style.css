@@ -354,7 +354,7 @@ p {
 .job-title{
   font-family: 'Mada', sans-serif;
   font-weight: bold;
-  margin-left: auto;
+  margin-left: 25%;
   margin-right: auto;
   margin-top: -4%;
 }
@@ -598,6 +598,8 @@ footer{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-left: 22%;
+  margin-right: 17%;
 }
 
 
@@ -1211,8 +1213,8 @@ footer{
   justify-content: space-around;
   align-items: center;
   margin-right: 25%;
-  margin-left: 25%;
-  width: 51%;
+  margin-left: 31%;
+  width: 40%;
 }
 
 
@@ -1273,6 +1275,8 @@ section .deliverables li {
 header{
   padding-top: 2%;
   display: flex;
+  margin-bottom: 2%;
+  align-items: center;
 }
 
   .nav-links{
