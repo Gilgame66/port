@@ -354,7 +354,7 @@ p {
 .job-title{
   font-family: 'Mada', sans-serif;
   font-weight: bold;
-  margin-left: 25%;
+  margin-left: 27%;
   margin-right: auto;
   margin-top: -4%;
 }
@@ -956,7 +956,7 @@ p {
 .job-title{
   font-family: 'Mada', sans-serif;
   font-weight: bold;
-  margin-left: auto;
+  margin-left: 33%;
   margin-right: auto;
   margin-bottom: 5%;
 }
@@ -1587,7 +1587,6 @@ margin-right: 17%;
       font-size: 25px;
       text-align: center;
       padding-bottom: 9%;
-
         }
 
 .job-title{
@@ -1595,11 +1594,12 @@ margin-right: 17%;
   font-weight: bold;
   text-align: center;
   margin-bottom: 5%;
+  margin-left: 2%;
 }
 
 .age-location{
   display: flex;
-  margin-left: 16%;
+  margin-left: 9%;
   margin-top: -5%;
 }
 
@@ -1619,7 +1619,7 @@ margin-right: 17%;
 
 .motivations-header{
   color: rgba(66, 175, 222, 1);
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
   margin-bottom: 5px;
 }
@@ -1632,26 +1632,30 @@ margin-right: 17%;
 
   .goals-header{
     color: rgba(66, 175, 222, 1);
-    font-size: 20px;
-    margin-left: 6%;
+    font-size: 25px;
+    margin-left: 2%;
     margin-right: 6%;
-    padding: 0 16px;
+  }
+
+/*The persona-1 line is tied specifically to the "frustrations" section of the first persona and is here to add a margin so that is sits level with the other frustrations header*/
+  .persona-1{
+    margin-top: 27%;
   }
 
   .goal-list1{
-    margin-left: 6%;
+    margin-left: 10%;
     margin-right: 6%;
     margin-top: -1%;
     margin-bottom: -8px;
   }
 
   .goal-list2{
-    margin-left: 6%;
-    margin-right: 6%;
+    margin-left: 10%;
+    margin-right: 0;
   }
 
   .goal-list3{
-    margin-left: 6%;
+    margin-left: 10%;
     margin-right: 6%;
     margin-top: -2%;
   }
@@ -1660,7 +1664,7 @@ margin-right: 17%;
     font-family: 'Mada', sans-serif;
     font-weight: bold;
     margin-left: 30%;
-    margin-top: -4%;
+    margin-top: 1%;
     margin-bottom: 5%;
   }
 
@@ -1683,8 +1687,20 @@ margin-right: 17%;
     margin-left: 4%;
   }
 
+.sean-description-text{
+  max-width: 90%;
+  margin-left: 15%;
+  margin-right: 0;
+  margin-bottom: 5%;
+}
+
 .goals-frustrations{
   margin-left: 10%;
+}
+
+.sean-goals-frustrations{
+  margin-left: 10%;
+  margin-top: 20%;
 }
 
 .user-stories-img{
@@ -1744,9 +1760,9 @@ margin-right: 17%;
 
 .bulletpoints{
   font-size: 18px;
-  margin-left: 0%;
-  margin-right: 10%;
-  line-height: 25px;
+  margin-left: 3%;
+  margin-right: 16%;
+  line-height: 32px;
 }
 
 
