@@ -12,9 +12,11 @@ section {
   flex-direction: column;
 }
 .green {
+  background-color: rgb(65, 137, 59);
   background-color: rgba(65, 137, 59, 0.10);
 }
 .blue {
+  background-color: rgb(0, 178, 255);
   background-color: rgba(0, 178, 255, 0.10);
 }
 
@@ -30,6 +32,7 @@ body{
 }
 
 .background-image{
+  background-color: rgb(255, 255, 255, );
   background-color: rgba(255, 255, 255, 0.85);
   height: 100%;
   width: auto;
@@ -75,6 +78,7 @@ header{
   }
 
   .stage{
+    background-color: rgb(66, 175, 222);
     background-color: rgba(66, 175, 222, 1);
     border-radius: 3px;
     color: white;
@@ -519,6 +523,7 @@ margin-bottom: 5%;
 }
 
 .view-type{
+  background-color: rgb(66, 175, 222);
   background-color: rgba(66, 175, 222, 1);
   border-radius: 3px;
   color: white;
@@ -588,6 +593,7 @@ footer{
 }
 
 .contact-me{
+  background-color: rgb(66, 175, 222);
   background-color: rgba(66, 175, 222, 1);
   border-radius: 3px;
   color: white;
@@ -687,6 +693,7 @@ header{
   }
 
   .stage{
+    background-color: rgb(66, 175, 222);
     background-color: rgba(66, 175, 222, 1);
     border-radius: 3px;
     color: white;
@@ -1144,6 +1151,7 @@ margin-bottom: 5%;
 }
 
 .view-type{
+  background-color: rgb(66, 175, 222);
   background-color: rgba(66, 175, 222, 1);
   border-radius: 3px;
   color: white;
@@ -1213,6 +1221,7 @@ footer{
 }
 
 .contact-me{
+  background-color: rgb(66, 175, 222);
   background-color: rgba(66, 175, 222, 1);
   border-radius: 3px;
   color: white;
@@ -1315,6 +1324,7 @@ header{
   }
 
   .stage{
+    background-color: rgb(66, 175, 222);
     background-color: rgba(66, 175, 222, 1);
     border-radius: 3px;
     color: white;
@@ -1809,6 +1819,7 @@ margin-right: 17%;
 }
 
 .view-type{
+  background-color: rgb(66, 175, 222);
   background-color: rgba(66, 175, 222, 1);
   border-radius: 3px;
   color: white;
@@ -1880,6 +1891,7 @@ footer{
 }
 
 .contact-me{
+  background-color: rgb(66, 175, 222);
   background-color: rgba(66, 175, 222, 1);
   border-radius: 3px;
   color: white;
