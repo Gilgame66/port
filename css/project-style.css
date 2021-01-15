@@ -48,9 +48,6 @@ a:link {
   color: white;
 }
 
-@media only screen and (min-device-width: 480px) {
-
-
   .logo {
     padding: 0 4%;
 }
@@ -90,6 +87,10 @@ header{
     margin-left: 5px;
   }
 
+.nav-links .current {
+  border-bottom: 1px solid rgba(66, 175, 222, 1);
+}
+
   .first{
     max-width: 380px;
   }
@@ -102,9 +103,6 @@ header{
   }
 
 
-  .line{
-    border-bottom: 1px solid rgba(66, 175, 222, 1);
-  }
 
 h1 {
   font-size: 35px;
@@ -607,16 +605,15 @@ footer{
   }
 
 .bottom{
-  margin-left: -13%;
-  text-align: center;
+  margin: 0;
 }
 
 .symbols{
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  margin-left: 22%;
-  margin-right: 17%;
+  margin: auto;
+  width: 50%;
+  padding: 0;
 }
 
 
@@ -716,10 +713,6 @@ header{
     width: 50%;
   }
 
-
-  .line{
-    border-bottom: 1px solid rgba(66, 175, 222, 1);
-  }
 
 h1 {
   font-size: 45px;
@@ -1234,21 +1227,6 @@ footer{
   padding-bottom: 8px;
   }
 
-.bottom{
-  margin-left: -13%;
-  text-align: center;
-}
-
-.symbols{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-right: 25%;
-  margin-left: 31%;
-  width: 40%;
-}
-
-
 .footer-images{
   display: inline-block;
 }
@@ -1345,11 +1323,6 @@ header{
     margin-right: auto;
     margin-top: 19%;
     width: 30%;
-  }
-
-
-  .line{
-    border-bottom: 1px solid rgba(66, 175, 222, 1);
   }
 
 h1 {
@@ -1904,18 +1877,9 @@ footer{
   padding-bottom: 8px;
   }
 
-.bottom{
-  margin-left: -13%;
-  }
-
 .symbols{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-left: 41%;
-  width: 23%;
+    width: 26%;
 }
-
 
 .footer-images{
   display: inline-block;
