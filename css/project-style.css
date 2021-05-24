@@ -1574,7 +1574,7 @@ margin-left: 10%;
 }
 
 .second-persona{
-margin-right: 17%;
+margin-right: 14%;
 }
 
 .persona1 {
@@ -1644,7 +1644,7 @@ margin-right: 17%;
 
 /*The persona-1 line is tied specifically to the "frustrations" section of the first persona and is here to add a margin so that is sits level with the other frustrations header*/
   .persona-1{
-    margin-top: 27%;
+    margin-top: 10%;
   }
 
   .goal-list1{
@@ -1701,11 +1701,16 @@ margin-right: 17%;
 
 .goals-frustrations{
   margin-left: 10%;
+  margin-top: 17%;
+}
+
+.persona-2 {
+  margin-top: 17%;
 }
 
 .sean-goals-frustrations{
   margin-left: 10%;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 .user-stories-img{

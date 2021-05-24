@@ -140,6 +140,21 @@ line-height: 22px;
   margin-top: 1%;
 }
 
+/* "first-col" is specifically for the hero image*/
+.first-col{
+    flex: 50%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: auto;
+}
+
+.first-col img{
+  width: 100%;
+  height: auto;
+}
+
 .about .col1 {
   flex: 50%;
   padding: 0 60px;
@@ -208,12 +223,11 @@ padding-right: 10px;
   font-family: 'Mada', sans-serif;
   font-size: 20px;
   font-weight: 100;
-  text-align: left;
+  text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 6%;
-  margin-right: 16%;
-  margin-left: 17%;
+  margin-right: 56px;
+  margin-left: 57px;
 }
 
 .proto-button2{
@@ -223,14 +237,27 @@ padding-right: 10px;
   font-family: 'Mada', sans-serif;
   font-size: 20px;
   font-weight: 100;
-  text-align: left;
+  text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 8%;
-  margin-right: 16%;
-  margin-left: 17%;
+  margin-right: 56px;
+  margin-left: 57px;
 }
 
+/* redoing the "about me" styling */
+
+.my-bio{
+width: 90%;
+height: auto;
+flex: 40%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.my-bio img{
+  width: 100%;
+  height: auto;
+}
 /* Footer styling! */
 
 footer{
@@ -501,6 +528,7 @@ p {
     margin-left: 25%;
   }
 
+
 /* Footer styling! */
 
 footer{
@@ -652,6 +680,34 @@ nav li{
   }
 
 
+  /* redoing the "about me" styling */
+
+  .my-bio{
+  max-width: 74%;
+  height: auto;
+  flex: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .my-bio img{
+    width: 100%;
+    height: auto;
+  }
+
+/*"first-col" is specifically for the hero image */
+
+.first-col{
+    flex: 5px;
+    max-width: 80%;
+    padding: 0 60px;
+  }
+
+.first-col img {
+  width: 100%;
+  height: auto;
+}
+
   .about .col1 {
     flex: 5px;
     }
@@ -699,13 +755,9 @@ nav li{
     border-radius: 3px;
     color: white;
     font-family: 'Mada', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 100;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 6%;
-    margin-right: 24%;
-    margin-left: 26%;
+
   }
 
   .proto-button2{
@@ -713,14 +765,9 @@ nav li{
     border-radius: 3px;
     color: white;
     font-family: 'Mada', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 100;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 8%;
-    margin-right: 18%;
-    margin-left: 19%;
-  }
+      }
 
 
 footer{
@@ -839,7 +886,8 @@ footer{
   .about .col1 img {
     display: flex;
     margin-top: 45px;
-    max-height: 100%;
+    max-height: 67%;
+    margin-right: 11%;
   }
 
 nav ul{
@@ -891,6 +939,23 @@ nav li{
     margin-top: 6%;
   }
 
+/*"first-col" is specifically for the hero image*/
+.first-col {
+  max-width: 60%;
+  padding: 0px;
+  margin-right: 4%;
+  margin-left: 5%;
+  width: 90%;
+  height: auto;
+  flex: 50%;
+
+}
+
+.first-col img {
+  width: 100%;
+  height: auto;
+}
+
   .about {
     width: 100%;
     margin-bottom: 1%;
@@ -899,14 +964,14 @@ nav li{
     padding-top: 1%;
     }
   .col1 {
-    max-width: 74%;
+    max-width: 60%;
+    padding: 0px;
   }
-
+/*The above is inherting the padding from the smaller width size. Figure out a way to work around it. it shouldn't be doing that becuase I have a display: none for the image at smaller scales*/
   .about .col2 {
-    flex: 50%;
     padding: 0 1px;
     text-align: left;
-    margin-left: 8%;
+    margin-top: 6%;
     margin-right: 4%;
   }
 
@@ -946,11 +1011,10 @@ nav li{
     border-radius: 3px;
     color: white;
     font-family: 'Mada', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 100;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 7%;
     margin-right: 47%;
     margin-left: 0;
   }
@@ -960,15 +1024,29 @@ nav li{
     border-radius: 3px;
     color: white;
     font-family: 'Mada', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 100;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 7%;
     margin-right: 47%;
     margin-left: 0;
   }
 
+/* redoing the "about me" styling */
+
+.my-bio{
+  flex: 40%;
+  padding: 0 60px;
+  margin: auto;
+  max-width: 60%;
+}
+
+.my-bio img{
+  width: 100%;
+  height: auto;
+}
+
+/*footer stuff!*/
 
 footer{
   border-top: 2px solid gray;
@@ -1049,7 +1127,7 @@ footer{
 }
 
 .headline{
-  margin-right: 7%;
+  margin-right: 0;
 }
 
 .about-me-page-icons {
