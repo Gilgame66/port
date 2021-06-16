@@ -34,7 +34,7 @@ body{
   height: 100%;
   width: auto;
   background-color: rgba(255, 255, 255);
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.92);
   padding: 1%;
   margin: 0%;
 }
@@ -262,7 +262,7 @@ margin-right: auto;
 
 footer{
 border-top: 2px solid gray;
-margin-top: 7%;
+margin-top: 14%;
 }
 
 .large-footer{
@@ -333,7 +333,7 @@ text-align: center;
 text-align: center;
 margin-left: 20%;
 margin-right: 20%;
-margin-top: 10%;
+margin-top: 3%;
 margin-bottom: 10%;
 }
 .weight{
@@ -347,7 +347,7 @@ margin-bottom: 1%;
 
 .second-headline{
 text-align: center;
-margin-top: 15%;
+margin-top: 11%;
 margin-left: 20%;
 margin-right: 20%;
 }
@@ -355,7 +355,7 @@ margin-right: 20%;
 /* This is where I made a div to contain each of the three sections, in order to space properly*/
 
 .music-and-design{
-margin-top: 15%;
+margin-top: 11%;
 }
 }
 
@@ -533,7 +533,7 @@ p {
 
 footer{
   border-top: 2px solid gray;
-  margin-top: 7%;
+  margin-top: 14%;
 }
 
 .large-footer{
@@ -604,7 +604,7 @@ footer{
   text-align: center;
   margin-left: 20%;
   margin-right: 20%;
-  margin-top: 10%;
+  margin-top: 3%;
   margin-bottom: 10%;
 }
 .weight{
@@ -618,7 +618,7 @@ footer{
 
 .second-headline{
   text-align: center;
-  margin-top: 15%;
+  margin-top: 11%;
   margin-left: 20%;
   margin-right: 20%;
 }
@@ -626,7 +626,7 @@ footer{
 /* This is where I made a div to contain each of the three sections, in order to space properly*/
 
 .music-and-design{
-  margin-top: 15%;
+  margin-top: 11%;
 }
 }
 
@@ -772,7 +772,7 @@ nav li{
 
 footer{
   border-top: 2px solid gray;
-  margin-top: 7%;
+  margin-top: 14%;
 }
 
 .footer-text{
@@ -829,7 +829,7 @@ footer{
   text-align: center;
   margin-left: 20%;
   margin-right: 20%;
-  margin-top: 10%;
+  margin-top: 3%;
   margin-bottom: 10%;
 }
 .weight{
@@ -844,7 +844,7 @@ footer{
 
 .second-headline{
   text-align: center;
-  margin-top: 15%;
+  margin-top: 11%;
   margin-left: 20%;
   margin-right: 20%;
 }
@@ -861,7 +861,7 @@ footer{
 /* This is where I made a div to contain each of the three sections, in order to space properly*/
 
 .music-and-design{
-  margin-top: 15%;
+  margin-top: 11%;
 }
 }
 
@@ -1050,7 +1050,7 @@ nav li{
 
 footer{
   border-top: 2px solid gray;
-  margin-top: 7%;
+  margin-top: 14%;
 }
 
 .footer-text{
@@ -1106,7 +1106,7 @@ footer{
   text-align: center;
   margin-left: 20%;
   margin-right: 20%;
-  margin-top: 10%;
+  margin-top: 3%;
   margin-bottom: 10%;
 }
 .weight{
@@ -1121,7 +1121,7 @@ footer{
 
 .second-headline{
   text-align: center;
-  margin-top: 15%;
+  margin-top: 11%;
   margin-left: 20%;
   margin-right: 20%;
 }
@@ -1147,7 +1147,7 @@ footer{
 
 .music-and-design{
   display: block;
-  margin-top: 15%;
+  margin-top: 11%;
   margin-left: 7%;
 }
 }
